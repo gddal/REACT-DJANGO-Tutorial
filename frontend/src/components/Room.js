@@ -7,7 +7,6 @@ export default class Room extends Component {
             votesToSkip: 2,
             guestCanPause: false,
             isHost: false,
-            sda: false,
         };
         this.roomCode = this.props.match.params.roomCode;
         this.getRoomDetais();
